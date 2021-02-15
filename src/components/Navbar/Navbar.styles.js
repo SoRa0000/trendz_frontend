@@ -14,19 +14,23 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+    @media screen and (max-width: 960px){
+        height: 48px;
+    }
 `;
 
 export const NavContainer = styled.div`
     height: 64px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     display:flex;
     justify-content: space-between;
     margin: auto;
     align-items: center;
-    
+    margin: 0 50px;
     @media screen and (max-width: 960px){
         justify-content: center;
+        height: 48px;
     }
 `;
 
@@ -37,15 +41,17 @@ export const NavMenu = styled.ul`
     flex-grow: 2;
 
     @media screen and (max-width: 960px){
-        display: flex;
         flex-direction: column;
         width: 100%;
         position: absolute;
-        height: 90vh;
-        top: 64px;
+        height: calc(100vh - 48px);
+        top: 48px;
         color: #000;
         background: #385773;
-        left: ${({click}) => (click ? 0 : '-100%')}
+        right: ${({click}) => (click ? 0 : '-100%')};
+        display: ${({click}) => (click ? 'flex' : 'none')};
+        
+        transition: all .4s ease;
     }
 `;
 
@@ -54,7 +60,7 @@ export const NavSubMenu = styled.ul`
     display: none;
     list-style:none;
     background: #C9D4E7;
-    width: 150px;
+    width: 160px;
     flex-direction: column;
     top:64px;
     margin-left: -15px;
@@ -63,9 +69,8 @@ export const NavSubMenu = styled.ul`
     @media screen and (max-width: 960px){
         position: relative;
         top:0;
-        width: 100%;
-        background-color: #385773;
-
+        width: 100vw;
+        background-color: #142740;
         border-radius: none;
         
     }
@@ -75,9 +80,10 @@ export const NavSubMenu = styled.ul`
 export const NavSubMenuItem = styled.li`
     font-size: 0.6rem;
     line-height: 40px;
-    color: #444;
+    color: #222;
     display: block;
     padding-left: 15px;
+    
     &:hover{
         background: #385773;
         color: #fff;
@@ -86,20 +92,21 @@ export const NavSubMenuItem = styled.li`
 
     @media screen and (max-width: 960px){
         color: #fff;
-        font-size: 0.8rem
+        font-size: 0.8rem;
+        padding: 0;
     }
 `;
 
 export const NavItem = styled.li`
     padding: 0 15px;
     font-size: 0.9rem;
-    letter-spacing: .5px;
     display:flex;
     align-items: center;
     line-height: 64px;
-    border-bottom: 5px solid transparent;
+    color: #EEE;
+    
     &:hover{
-        border-bottom: 5px solid #fff;
+        color: #fff;
     }
     &:hover ${NavSubMenu}{
         display: block;
@@ -111,7 +118,6 @@ export const NavItem = styled.li`
        margin: 0;
        width: 100%;
         text-align:center;
-        border-bottom: 1px solid #142740;
     }
 `;
 
@@ -134,6 +140,7 @@ export const NavLogo = styled.img`
     
     @media screen and (max-width: 960px){
         margin:0;
+        height: 48px;
     }
 `;
 
@@ -152,7 +159,6 @@ export const NavBtn = styled.div`
 `;
 
 export const NavLogin = styled.button`
-    margin-left: 15px;
     width: 90px;
     height: 30px;
     text-align: center;
@@ -163,6 +169,10 @@ export const NavLogin = styled.button`
     outline: none;
     cursor: pointer;
     font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
 
     &:hover{
         background: #fff;
@@ -185,7 +195,7 @@ export const NavMobileIcon = styled.div`
     top: 0;
     right: 0;
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
     transform: translate(-30%,35%)
     
 }

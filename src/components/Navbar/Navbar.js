@@ -12,7 +12,8 @@ import {
     NavSubMenu,
     NavSubMenuItem
 } from './Navbar.styles'
-import {FaBars, FaTimes, FaCaretDown} from 'react-icons/fa'
+import {FaBars, FaTimes, FaCaretDown, FaSignInAlt} from 'react-icons/fa'
+import {BiLogIn} from 'react-icons/bi'
 const Navbar = () => {
     const [click,setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -24,29 +25,28 @@ const Navbar = () => {
                     <NavMobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />  } </NavMobileIcon>
                     <NavMenu  click={click}>
                 
-                        <NavLink> <NavItem>Нүүр</NavItem></NavLink>
-                        <NavLink> <NavItem>Мэдээ</NavItem></NavLink>
+                        <NavLink> <NavItem>НҮҮР</NavItem></NavLink>
+                        <NavLink> <NavItem>МЭДЭЭ</NavItem></NavLink>
                         <NavLink>
-                            <NavItem >Санал хураалт <FaCaretDown/>
+                            <NavItem >САНАЛ ХУРААЛТ <FaCaretDown/>
                              <NavSubMenu>
-                            <NavLink><NavSubMenuItem>Weekly Top</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem>AllTime Top</NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem><i>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                         </NavLink>
                         <NavLink>
-                            <NavItem >Жагсаалт <FaCaretDown/>
+                            <NavItem >ЖАГСААЛТ <FaCaretDown/>
                             <NavSubMenu >
-                            <NavLink><NavSubMenuItem>Weekly Top</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem>AllTime Top</NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem><i>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                             
                         </NavLink>
-                        <NavLink><NavItem>Хандив</NavItem></NavLink>
+                        <NavLink><NavItem>ХАНДИВ</NavItem></NavLink>
                         <NavBtn>
-                            <NavLink><NavLogin>Нэвтрэх</NavLogin></NavLink>
-                            <NavLink><NavLogin>Бүртгүүлэх</NavLogin></NavLink>
+                            <NavLink><NavLogin>Нэвтрэх <FaSignInAlt/></NavLogin></NavLink>
                     </NavBtn>
                     </NavMenu>
                     
