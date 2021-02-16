@@ -1,2 +1,6 @@
 export {default as Navbar} from './Navbar/Navbar'
-export {default as NewsSection} from './NewsSection/NewsSection'
+export {default as NewsSection} from './HomePages/NewsSection/NewsSection'
+export {default as MainChart} from './HomePages/MainChart/MainChart'
+export {default as MainPoll} from './HomePages/MainPoll/MainPoll'
+export {default as SecondaryPoll} from './HomePages/SecondaryPoll/SecondaryPoll'
+export {default as Information} from './HomePages/Information/Information'

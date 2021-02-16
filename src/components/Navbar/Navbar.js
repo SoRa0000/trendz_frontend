@@ -10,10 +10,10 @@ import {
     NavLogin,
     NavMobileIcon,
     NavSubMenu,
-    NavSubMenuItem
+    NavSubMenuItem,
+    FaIcons
 } from './Navbar.styles'
-import {FaBars, FaTimes, FaCaretDown, FaSignInAlt} from 'react-icons/fa'
-import {BiLogIn} from 'react-icons/bi'
+import {FaBars, FaTimes, FaCaretDown, FaSignInAlt, FaHome,FaNewspaper,FaVoteYea,FaListOl,FaMoneyCheckAlt} from 'react-icons/fa'
 const Navbar = () => {
     const [click,setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -25,28 +25,28 @@ const Navbar = () => {
                     <NavMobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />  } </NavMobileIcon>
                     <NavMenu  click={click}>
                 
-                        <NavLink> <NavItem>НҮҮР</NavItem></NavLink>
-                        <NavLink> <NavItem>МЭДЭЭ</NavItem></NavLink>
+                        <NavLink> <NavItem><FaIcons><FaHome/></FaIcons> НҮҮР</NavItem></NavLink>
+                        <NavLink> <NavItem><FaIcons><FaNewspaper/></FaIcons> МЭДЭЭ</NavItem></NavLink>
                         <NavLink>
-                            <NavItem >САНАЛ ХУРААЛТ <FaCaretDown/>
+                            <NavItem ><FaIcons><FaVoteYea/></FaIcons>САНАЛ ХУРААЛТ <FaCaretDown/>
                              <NavSubMenu>
                             <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem><i>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                         </NavLink>
                         <NavLink>
-                            <NavItem >ЖАГСААЛТ <FaCaretDown/>
+                            <NavItem><FaIcons><FaListOl/></FaIcons>ЖАГСААЛТ <FaCaretDown/>
                             <NavSubMenu >
                             <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem><i>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                            <NavLink><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                             
                         </NavLink>
-                        <NavLink><NavItem>ХАНДИВ</NavItem></NavLink>
+                        <NavLink><NavItem><FaIcons><FaMoneyCheckAlt/></FaIcons>ХАНДИВ</NavItem></NavLink>
                         <NavBtn>
-                            <NavLink><NavLogin>Нэвтрэх <FaSignInAlt/></NavLogin></NavLink>
+                            <NavLink><NavLogin>Нэвтрэх<span>&nbsp;</span> <FaSignInAlt/></NavLogin></NavLink>
                     </NavBtn>
                     </NavMenu>
                     
