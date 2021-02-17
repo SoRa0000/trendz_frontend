@@ -25,28 +25,28 @@ const Navbar = () => {
                     <NavMobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />  } </NavMobileIcon>
                     <NavMenu  click={click}>
                 
-                        <NavLink> <NavItem><FaIcons><FaHome/></FaIcons> НҮҮР</NavItem></NavLink>
-                        <NavLink> <NavItem><FaIcons><FaNewspaper/></FaIcons> МЭДЭЭ</NavItem></NavLink>
+                        <NavLink to='/'> <NavItem><FaIcons><FaHome/></FaIcons> НҮҮР</NavItem></NavLink>
+                        <NavLink to='/'> <NavItem><FaIcons><FaNewspaper/></FaIcons> МЭДЭЭ</NavItem></NavLink>
                         <NavLink>
                             <NavItem ><FaIcons><FaVoteYea/></FaIcons>САНАЛ ХУРААЛТ <FaCaretDown/>
                              <NavSubMenu>
-                            <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                            <NavLink to='/'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                            <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                         </NavLink>
                         <NavLink>
                             <NavItem><FaIcons><FaListOl/></FaIcons>ЖАГСААЛТ <FaCaretDown/>
                             <NavSubMenu >
-                            <NavLink><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                            <NavLink to='/'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                            <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
                             </NavSubMenu>
                             </NavItem>
                             
                         </NavLink>
-                        <NavLink><NavItem><FaIcons><FaMoneyCheckAlt/></FaIcons>ХАНДИВ</NavItem></NavLink>
+                        <NavLink to='/'><NavItem><FaIcons><FaMoneyCheckAlt/></FaIcons>ХАНДИВ</NavItem></NavLink>
                         <NavBtn>
-                            <NavLink><NavLogin>Нэвтрэх<span>&nbsp;</span> <FaSignInAlt/></NavLogin></NavLink>
+                            <NavLink to='/'><NavLogin>Нэвтрэх<span>&nbsp;</span> <FaSignInAlt/></NavLogin></NavLink>
                     </NavBtn>
                     </NavMenu>
                     

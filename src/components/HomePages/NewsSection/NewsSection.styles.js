@@ -9,7 +9,7 @@ export const NewsSectionWrapper = styled.div`
 -moz-box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
 box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
     @media screen and (max-width: 766px){
-        padding-top: 109.09%;
+        padding-top: 120%;
     }
 `;
 
@@ -20,15 +20,38 @@ export const SlideShow = styled.div`
     width: 55%;
     height: 100%;    
     position: absolute;
-    
 
     @media screen and (max-width: 766px){
         width: 100%;
         top: 0;
         left: 0;
         right: 0;
-        height: 50%;
+        height: 45.45%;
     }
+`;
+
+export const NewsBannerWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    top:0;
+    bottom: 0;
+    right:0;
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    padding-left: 5px;
+    border-radius: 3px;
+    @media screen and (max-width: 766px){
+        width:100%;
+        height: 54.55%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 45.45%;
+        padding: 0;
+        padding-top: 5px;
+    }
+    
 `;
 
 
@@ -110,30 +133,7 @@ export const BtnLink = styled(Link)`
 `;
 
 
-export const NewsBannerWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    top:0;
-    bottom: 0;
-    right:0;
-    position: absolute;
-    width: 45%;
-    height: 100%;
-    padding-left: 5px;
-    border-radius: 3px;
-    
-    
-    @media screen and (max-width: 766px){
-        width:100%;
-        height: 50%;
-        bottom: 0;
-        left: 0;
-        top: 50%;
-        padding: 0;
-        margin-top: 5px;
-    }
-    
-`;
+
 export const NewsBanner = styled.div`
     width: 50%;
     height: 50%;
@@ -172,6 +172,9 @@ export const NewsBannerTitle = styled.h5`
     padding-left: 10px;
     @media screen and (max-width: 480px){
         font-size: 0.6rem;
+    }
+    &:hover{
+        color: #00c7fd;
     }
 `;
 
