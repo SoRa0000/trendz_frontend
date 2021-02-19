@@ -4,7 +4,7 @@ export const MainChartWrapper = styled.div`
     display: flex;
     position: relative;
     height: auto;
-    margin-top: 40px;
+    margin-top: 50px;
     @media screen and (max-width: 766px){
         flex-direction: column;
         margin-top: 30px;
@@ -243,6 +243,10 @@ export const AllTimeInfoTitle = styled.p`
     font-size: 0.9rem;
     font-weight: 600;
     color: #0d0d0d;
+    transition: .1s;
+    &:hover{
+        color: #00c7fd;
+    }
     
 `
 

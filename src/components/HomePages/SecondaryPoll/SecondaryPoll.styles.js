@@ -4,7 +4,7 @@ export const SecondaryPollWrapper = styled.div`
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
     aspect-ratio: 4/1;
     border: 5px solid #fff;
@@ -28,7 +28,7 @@ export const SecondaryPollItem = styled.div`
     background: radial-gradient(ellipse at top, #333 0%, #0d0d0d 100%);
     transition: background-color 0.5s;
     &:hover{
-        background: radial-gradient(ellipse at bottom, #333 0%, #0d0d0d 100%);
+        background: radial-gradient(ellipse at top, #444 0%, #1a1a1a 100%);
         
     }
 
@@ -100,7 +100,7 @@ export const SecondaryPollSubTitle = styled.div`
     margin-top: 30%;
     margin-left: 35%;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     color: #fff;
     @media screen and (max-width: 766px){
@@ -119,8 +119,8 @@ export const SecondaryPollTitle = styled.div`
     margin-top: 45%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight:700;
     background: linear-gradient(90deg, #2e81f7 0%, #00c7fd 50%, #35dfcd 100%);
     color: #fff;
     width: auto;

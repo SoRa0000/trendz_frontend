@@ -6,13 +6,13 @@ export const MainPollWrapper = styled.div`
     flex-direction: row;
     width: 100%;
     aspect-ratio: 3/1;
-    margin-top: 40px;
+    margin-top: 50px;
     position: relative;
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 766px){
         flex-direction: column;
-        aspect-ratio: 1/3;
+        aspect-ratio:4/10;
         margin-top: 0;
     }
 `;

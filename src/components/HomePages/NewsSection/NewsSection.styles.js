@@ -6,8 +6,8 @@ export const NewsSectionWrapper = styled.div`
     padding-top: 30%;
     position: relative;
     -webkit-box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
--moz-box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
-box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
+    -moz-box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
+    box-shadow: 0px 13px 28px -13px rgba(13,13,13,0.73);
     @media screen and (max-width: 766px){
         padding-top: 120%;
     }

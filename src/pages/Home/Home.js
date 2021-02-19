@@ -15,7 +15,7 @@ const HomeContainer = styled.div`
 `;
 
 const HomeWrapper = styled.div`
-    height: 3000px;
+    height: auto;
     width: 1300px; 
     padding: 0 50px; 
     @media screen and (max-width: 960px){
@@ -35,7 +35,7 @@ const Home = () => {
                 <MainChart />
                 <MainPoll />
                 <SecondaryPoll />
-                <Information />
+                {/* <Information />*/} 
             </HomeWrapper>
         </HomeContainer>
     )

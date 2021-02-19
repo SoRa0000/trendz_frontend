@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 export const InformationWrapper = styled.div`
-    margin-top: 20px;
+    position: relative;
+    margin-top: 50px;
     display: flex;
     width: 100%;
     height: 500px;
