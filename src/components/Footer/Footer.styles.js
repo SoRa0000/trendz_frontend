@@ -243,8 +243,14 @@ export const FooterContactUsIcon = styled.div`
     width: 15px;
     font-size: 0.9rem;
     margin-right: 15px;
+    @media screen and (max-width: 766px){
+        font-size: 0.7rem;
+    }
 `;
 
 export const FooterContactUsText = styled.div`
     font-size: 0.9rem;
+    @media screen and (max-width: 766px){
+        font-size: 0.7rem;
+    }
 `;
