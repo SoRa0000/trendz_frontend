@@ -124,9 +124,10 @@ export const AllTimeTop = styled.div`
     display: flex;
     height: 88%;
     flex-direction: column;
-    
+    order: 1;
     @media screen and (max-width: 766px){
-        display: none;
+        margin: 20px 0;
+        order: 2;
     }
 `;
 
@@ -306,6 +307,7 @@ export const AllTimeTopInfoLink = styled(Link)`
 
 export const DonationBanner = styled.div`
     margin-top: 20px;
+    order: 2;
     max-height: 12%;
     height: calc(100% - 65% - 20px);
     background: linear-gradient(90deg, #2e81f7 0%, #00c7fd 50%, #35dfcd 100%);
@@ -330,6 +332,7 @@ box-shadow: 0px 0px 37px -2px rgba(0,199,253,1);
         max-height: 100%;
         height: 100px;
         margin: 0;
+        order: 1;
     }
 `;
 
