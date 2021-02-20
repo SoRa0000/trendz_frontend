@@ -12,12 +12,17 @@ export const VoteListContainer = styled.div`
 `;
 
 export const VoteListWrapper = styled.div`
-    width: 1300px;
+    max-width: 1300px;
     display: flex;
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
     height: auto;
     padding-top: 20px;
     flex-wrap: wrap;
+    @media screen and (max-width: 766px){
+        justify-content: center;
+    }
 `;
 
 export const VoteSubmitBtnWrapper = styled.div`
@@ -31,6 +36,7 @@ export const VoteSubmitBtnWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 `;
 export const VoteSubmitBtn = styled.button`

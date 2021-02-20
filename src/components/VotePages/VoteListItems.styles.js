@@ -22,13 +22,19 @@ export const VoteListItem = styled.div`
     width: 200px;
     margin: 20px;
     -webkit-box-shadow: 0px 0px 20px -12px rgba(13,13,13,1);
--moz-box-shadow: 0px 0px 20px -12px rgba(13,13,13,1);
-box-shadow: 0px 0px 20px -12px rgba(13,13,13,1);
+    -moz-box-shadow: 0px 0px 20px -12px rgba(13,13,13,1);
+    box-shadow: 0px 0px 20px -12px rgba(13,13,13,1);
     border-radius: 5px;
 
     &:hover ${VoteListItemCover}{
         -webkit-filter: brightness(0.8);
         filter: brightness(0.8);
+    }
+    @media screen and (max-width: 766px){
+        height: 160px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 3px;
     }
 `;
 
@@ -39,6 +45,9 @@ export const VoteListItemHeader = styled.div`
     position: relative;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 766px){
+        height:60px;
+    }
 `;
 
 export const VoteListItemCoverImg = styled.img`
@@ -49,19 +58,25 @@ export const VoteListItemProfile = styled.div`
     margin-bottom: -90px;
     height: 100px;
     width: 100px;
-    background: yellow;
     z-index: 2;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
--moz-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
+    @media screen and (max-width: 766px){
+        margin-bottom: -45px;
+        height: 50px;
+        width: 50px;
+    }
     
 `;
 export const VoteListItemProfileImg = styled.img`
     height: 100%;
     width: 100%;
+    border: 2px solid #fff;
     border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
+    -moz-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
+    box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
+    @media screen and (max-width: 766px){
+        border-radius: 12px;
+    }
 `;
 export const VoteListItemTitle = styled.div`
     display: flex;
@@ -74,6 +89,12 @@ export const VoteListItemTitle = styled.div`
     text-align: center;
     font-size: 1.2rem;
     font-weight: 400;
+    @media screen and (max-width: 766px){
+        margin-top: 15px;
+        height: 40px;
+        font-size: 0.6rem;
+
+    }
 `;
 
 export const VoteListItemBtnWrapper = styled.div`
@@ -83,6 +104,10 @@ export const VoteListItemBtnWrapper = styled.div`
     width: 100%;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 766px){
+        height: 30px;
+        margin-top: 5px;
+    }
 `;
 
 export const VoteListBtn = styled.button`
@@ -96,7 +121,14 @@ export const VoteListBtn = styled.button`
     border-radius: 17px;
     cursor: pointer;
     color: #fff;
+    font-size: 0.85rem;
     &:hover{
         background-position: right center;
+    }
+    @media screen and (max-width: 766px){
+        height: 13px;
+        width: 75px;
+        border-radius: 8px;
+        font-size: 0.5rem;
     }
 `;
