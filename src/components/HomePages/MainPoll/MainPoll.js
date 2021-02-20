@@ -15,7 +15,7 @@ const MainPoll = () => {
     return (
         <MainPollWrapper>
                 <MainPollItem>
-                    <MainPollItemImg src="images/main_poll_anime.jpg"/>
+                    <MainPollItemImg src="/images/main_poll_anime.jpg"/>
                     <MainPollItemBg>
                         <MainPollSubTitle>
                             7 хоногийн
@@ -30,7 +30,7 @@ const MainPoll = () => {
                     </MainPollItemBg>
                 </MainPollItem>
                 <MainPollItem>
-                    <MainPollItemImg src="images/main_poll_male.jpg"/>
+                    <MainPollItemImg src="/images/main_poll_male.jpg"/>
                     <MainPollItemBg>
                         <MainPollSubTitle>
                             7 хоногийн
@@ -45,7 +45,7 @@ const MainPoll = () => {
                     </MainPollItemBg>
                 </MainPollItem>
                 <MainPollItem>
-                    <MainPollItemImg src="images/main_poll_female.jpg"/> 
+                    <MainPollItemImg src="/images/main_poll_female.jpg"/> 
                     <MainPollItemBg>
                         <MainPollSubTitle>
                             7 хоногийн

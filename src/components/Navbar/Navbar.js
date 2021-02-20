@@ -21,36 +21,28 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavContainer>
-                    <NavLogo src="./logo_transparent.png"/>
+                    <NavLogo src="/logo_transparent.png"/>
                     <NavMobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />  } </NavMobileIcon>
                     <NavMenu  click={click}>
-                
                         <NavLink to='/'> <NavItem><FaIcons><FaHome/></FaIcons> НҮҮР</NavItem></NavLink>
                         <NavLink to='/'> <NavItem><FaIcons><FaNewspaper/></FaIcons> МЭДЭЭ</NavItem></NavLink>
-                        <NavLink>
                             <NavItem ><FaIcons><FaVoteYea/></FaIcons>САНАЛ ХУРААЛТ <FaCaretDown/>
-                             <NavSubMenu>
-                            <NavLink to='/'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
-                            </NavSubMenu>
+                                <NavSubMenu>
+                                <NavLink to='/vote/anime'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                                <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                                </NavSubMenu>
                             </NavItem>
-                        </NavLink>
-                        <NavLink>
                             <NavItem><FaIcons><FaListOl/></FaIcons>ЖАГСААЛТ <FaCaretDown/>
-                            <NavSubMenu >
-                            <NavLink to='/'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
-                            <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
-                            </NavSubMenu>
+                                <NavSubMenu >
+                                <NavLink to='/'><NavSubMenuItem>АНИМЭ</NavSubMenuItem></NavLink>
+                                <NavLink to='/'><NavSubMenuItem><i style={{color:"#999"}}>Тун удахгүй...</i></NavSubMenuItem></NavLink>
+                                </NavSubMenu>
                             </NavItem>
-                            
-                        </NavLink>
                         <NavLink to='/'><NavItem><FaIcons><FaMoneyCheckAlt/></FaIcons>ХАНДИВ</NavItem></NavLink>
                         <NavBtn>
                             <NavLink to='/'><NavLogin>Нэвтрэх<span>&nbsp;</span> <FaSignInAlt/></NavLogin></NavLink>
                     </NavBtn>
                     </NavMenu>
-                    
-                    
                 </NavContainer>
             </Nav>
         </>

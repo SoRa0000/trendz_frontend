@@ -30,7 +30,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrapper>
                 <FooterLogoWrapper>
-                    <FooterLogo src="./6_final.png"/>
+                    <FooterLogo src="/6_final.png"/>
                 </FooterLogoWrapper>
                 <FooterListWrapper>
                     <FooterList>

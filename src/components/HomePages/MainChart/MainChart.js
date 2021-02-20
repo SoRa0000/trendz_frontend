@@ -49,7 +49,7 @@ const MainChart = () => {
                                 <WeeklyTopTitleButton style={{background: '#333'}}><i style={{fontWeight: "300", color: "#666"}}>Тун удахгүй...</i></WeeklyTopTitleButton>
                             </WeeklyTopTitleButtonWrapper>
                         </WeeklyTopHeader>
-                        <WeeklyTopImgWrapper><WeeklyTopImg src="images/weekly_top.png" /></WeeklyTopImgWrapper>
+                        <WeeklyTopImgWrapper><WeeklyTopImg src="/images/weekly_top_10.png" /></WeeklyTopImgWrapper>
                     </WeeklyTop>
                     <SectionChartWrapper>
                         <AllTimeTop>
@@ -69,7 +69,7 @@ const MainChart = () => {
                                             <AllTimeOrderNumber> 1 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                             
@@ -85,7 +85,7 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>9.8</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
@@ -93,11 +93,11 @@ const MainChart = () => {
                                 
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "90%", width: "90%"}} src="./rank_bg.svg"/>
+                                            <AllTimeOrderImg style={{height: "90%", width: "90%"}} src="/rank_bg.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1.5rem"}}> 2 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -111,17 +111,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>9.6</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "80%", width: "80%"}} src="./rank_bg.svg"/>
+                                            <AllTimeOrderImg style={{height: "80%", width: "80%"}} src="/rank_bg.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1.25rem"}}> 3 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -135,7 +135,7 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>9.5</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
@@ -145,7 +145,7 @@ const MainChart = () => {
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 4 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -159,17 +159,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>9.1</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 5 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -183,17 +183,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>9.0</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 6 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -207,17 +207,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>8.8</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 7 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -231,17 +231,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>8.7</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 8 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -255,17 +255,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>8.7</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 9 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -279,17 +279,17 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>8.3</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
                                 <AllTimeItem>
                                         <AllTimeItemOrder>
-                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="./rank_bg_dark.svg"/>
+                                            <AllTimeOrderImg style={{height: "60%", width: "60%"}} src="/rank_bg_dark.svg"/>
                                             <AllTimeOrderNumber style={{fontSize: "1rem", color: "#fff"}}> 10 </AllTimeOrderNumber>
                                         </AllTimeItemOrder>
                                         <AllTimeItemImgWrapper>
-                                        <AllTimeItemImg src="images/top_img.jpg"/>
+                                        <AllTimeItemImg src="/images/top_img.jpg"/>
                                         </AllTimeItemImgWrapper>
                                         <AllTimeItemInfo>
                                         <AllTimeTopInfoLink>
@@ -303,7 +303,7 @@ const MainChart = () => {
                                             </AllTimeInfoVote>
                                         </AllTimeItemInfo>
                                         <AllTimeItemScoreWrapper>
-                                            <AllTimeScoreImg src="./score_bg.svg"/>
+                                            <AllTimeScoreImg src="/score_bg.svg"/>
                                             <AllTimeItemScore>8.1</AllTimeItemScore>
                                         </AllTimeItemScoreWrapper>
                                 </AllTimeItem>
@@ -313,10 +313,10 @@ const MainChart = () => {
 
                         <DonationBanner>
                         <DonationBannerImg1Wrapper>
-                        <DonationBannerImg1 src="images/donation_bar_1.png"/>
+                        <DonationBannerImg1 src="/images/donation_bar_1.png"/>
                             </DonationBannerImg1Wrapper>
                             <DonationBannerImg2Wrapper>
-                            <DonationBannerImg2 src="images/donation_bar_2.png" />
+                            <DonationBannerImg2 src="/images/donation_bar_2.png" />
                             </DonationBannerImg2Wrapper>
                             <DonationBannerBtn>
                                 Хандив өгөх
