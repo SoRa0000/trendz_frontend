@@ -31,8 +31,8 @@ export const VoteListItem = styled.div`
         filter: brightness(0.8);
     }
     @media screen and (max-width: 766px){
-        height: 160px;
-        width: 100px;
+        height: 200px;
+        width: 130px;
         margin: 10px;
         border-radius: 3px;
     }
@@ -46,7 +46,7 @@ export const VoteListItemHeader = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 766px){
-        height:60px;
+        height:80px;
     }
 `;
 
@@ -60,9 +60,9 @@ export const VoteListItemProfile = styled.div`
     width: 100px;
     z-index: 2;
     @media screen and (max-width: 766px){
-        margin-bottom: -45px;
-        height: 50px;
-        width: 50px;
+        margin-bottom: -65px;
+        height: 65px;
+        width: 65px;
     }
     
 `;
@@ -75,7 +75,7 @@ export const VoteListItemProfileImg = styled.img`
     -moz-box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
     box-shadow: 0px 0px 13px -1px rgba(102,102,102,1);
     @media screen and (max-width: 766px){
-        border-radius: 12px;
+        border-radius: 20px;
     }
 `;
 export const VoteListItemTitle = styled.div`
@@ -90,9 +90,9 @@ export const VoteListItemTitle = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
     @media screen and (max-width: 766px){
-        margin-top: 15px;
-        height: 40px;
-        font-size: 0.6rem;
+        margin-top: 20px;
+        height: 50px;
+        font-size: 0.7rem;
 
     }
 `;
@@ -105,8 +105,8 @@ export const VoteListItemBtnWrapper = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 766px){
-        height: 30px;
-        margin-top: 5px;
+        height: 50px;
+        margin-top: 0;
     }
 `;
 
@@ -126,9 +126,9 @@ export const VoteListBtn = styled.button`
         background-position: right center;
     }
     @media screen and (max-width: 766px){
-        height: 13px;
-        width: 75px;
-        border-radius: 8px;
-        font-size: 0.5rem;
+        height: 30px;
+        width: 90px;
+        border-radius: 15px;
+        font-size: 0.6rem;
     }
 `;
