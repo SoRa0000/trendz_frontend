@@ -22,6 +22,8 @@ export const VoteListWrapper = styled.div`
     flex-wrap: wrap;
     @media screen and (max-width: 766px){
         justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 `;
 
