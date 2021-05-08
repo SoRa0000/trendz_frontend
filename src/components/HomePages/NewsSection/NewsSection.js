@@ -30,7 +30,7 @@ const NewsSection = () => {
                     <MainNewsTitle>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </MainNewsTitle>
-                        <BtnLink>
+                        <BtnLink to="/news/id">
                         <MainNewsBtn>
                             Цааш үзэх...
                             </MainNewsBtn>

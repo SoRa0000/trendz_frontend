@@ -13,7 +13,7 @@ import {
 const VoteListItems = () => {
     return (
         <>
-            <VoteListItem>
+            <VoteListItem >
                 <VoteListItemHeader>
                     <VoteListItemCover>
                         {/* */}

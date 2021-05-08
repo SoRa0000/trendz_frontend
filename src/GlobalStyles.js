@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     
 }
 body{
-    background: #fff;
+    background: #f2f2f2;
 }
 `;
 

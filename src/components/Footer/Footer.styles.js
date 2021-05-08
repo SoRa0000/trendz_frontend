@@ -24,7 +24,7 @@ export const FooterContainer = styled.div`
 export const FooterWrapper = styled.div`
     display: flex;
     max-width: 1200px;
-    width: 1300px;
+    width: 1200px;
     height: 100%;
     position: relative;
     @media screen and (max-width: 766px){
@@ -172,6 +172,9 @@ export const FooterSocialMediaWrapper = styled.div`
     @media screen and (max-width: 766px){
         padding-left: 10%;
     }
+    @media screen and (max-width: 960px){
+        width: 45%;
+    }
 
 `; 
 
@@ -201,13 +204,15 @@ export const FooterSocialMediaItem = styled.div`
         color: #2e87f7;
     }
 
-    @media screen and (max-width: 766px){
+    @media screen and (max-width: 960px){
         height: 25px;
         width: 25px;
         font-size: 25px;
         margin-right: 20px;
         margin-bottom: 20px;
     }
+
+    
 
 `;
 
@@ -220,6 +225,9 @@ export const FooterContactUsWrapper = styled.div`
     
     @media screen and (max-width: 766px){
         padding-left: 5%;
+    }
+    @media screen and (max-width: 960px){
+        width: 55%;
     }
 `;
 export const FooterContactUsHeader = styled.div`
@@ -243,7 +251,7 @@ export const FooterContactUsIcon = styled.div`
     width: 15px;
     font-size: 0.9rem;
     margin-right: 15px;
-    @media screen and (max-width: 766px){
+    @media screen and (max-width: 960px){
         font-size: 0.5rem;
         margin-right: 5px;
     }
@@ -251,7 +259,7 @@ export const FooterContactUsIcon = styled.div`
 
 export const FooterContactUsText = styled.div`
     font-size: 0.9rem;
-    @media screen and (max-width: 766px){
+    @media screen and (max-width: 960px){
         font-size: 0.6rem;
     }
 `;

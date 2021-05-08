@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {
     NewsSection,
     MainChart,
@@ -28,6 +28,18 @@ const HomeWrapper = styled.div`
 
 
 const Home = () => {
+    useEffect(() =>{
+        try{
+          window.scroll({
+            top:0,
+            left:0,
+            behavior: 'smooth',
+          });
+        }
+        catch (error) {
+          window.scroll(0,0);
+        }
+      },[])
     return (
         <HomeContainer>
             <HomeWrapper>

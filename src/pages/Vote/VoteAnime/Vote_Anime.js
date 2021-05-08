@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import {VoteWeeklyList} from '../../../components'
 export const VoteAnimeContainer = styled.div`
@@ -38,6 +38,7 @@ export const VoteAnimeHeader = styled.div`
     border-width: 3px;
     border-style: solid;
     border-image-source: linear-gradient(to right, #2e81f7 0%, #00c7fd 50%, #35dfcd 100%);
+    
     border-image-slice: 1;
     border-top: none;
     border-right: none;
@@ -47,6 +48,18 @@ export const VoteAnimeHeader = styled.div`
     font-size: 1.2rem;
 `;
 const Vote_Anime = () => {
+    useEffect(() =>{
+        try{
+          window.scroll({
+            top:0,
+            left:0,
+            behavior: 'smooth',
+          });
+        }
+        catch (error) {
+          window.scroll(0,0);
+        }
+      },[])
     return (
         <VoteAnimeContainer>
             <VoteAnimeWrapper>
